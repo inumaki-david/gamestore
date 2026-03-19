@@ -16,7 +16,7 @@ COPY . .
 RUN mvn clean install
 
 ## Execução do projeto
-FROM openjdk:21-slim
+FROM eclipse-temurin:21-jammy
 
 ## Expor a porta 8080
 EXPOSE 8080
