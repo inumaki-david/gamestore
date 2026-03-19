@@ -4,7 +4,7 @@ FROM ubuntu:latest AS build
 
 ## Instalar o JAVA
 RUN ap-get update
-RUN apt-get install -y opendjk-21-jdk
+RUN apt-get install -y openjdk-21-jdk
 
 ## Instalar o maven
 RUN apt-get install -y maven
